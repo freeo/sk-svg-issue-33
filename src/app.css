@@ -1,0 +1,76 @@
+@import './tailwind.css';
+
+h1 {
+	@apply max-w-max bg-gradient-to-r from-red-600 to-purple-600 bg-clip-text py-2 px-3 text-left text-4xl font-extrabold text-transparent;
+}
+
+h2 {
+	@apply px-3 py-2 text-2xl font-medium;
+	/* @apply inline-block py-2 text-xl; */
+}
+
+/* h2 span { */
+/* 	display: inline-block; */
+/* 	transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1); */
+/* } */
+
+body {
+	@apply text-base;
+}
+
+/* span { */
+/* 	@apply text-black; */
+/* } */
+
+p {
+	@apply overflow-x-scroll py-2 px-3 leading-relaxed;
+}
+
+/* defines the overall size */
+main {
+	/* margin: auto; */
+	/* padding: 1em; */
+	/* max-width: 60ch; */
+}
+
+a {
+	@apply text-blue-600 underline;
+}
+
+ul {
+	@apply list-disc px-6;
+}
+
+.my-red {
+	color: #d00000;
+}
+
+.my-orange {
+	color: #ff5c00;
+}
+
+.my-yellow {
+	color: #ffc700;
+}
+
+.my-green {
+	color: #32b71c;
+}
+.my-turqoise {
+	color: #00ccc0;
+}
+
+.my-blue-light {
+	color: #00a3ff;
+}
+.my-blue-king {
+	color: #0038ff;
+}
+
+.my-violet {
+	color: #8f00ff;
+}
+
+.my-gradient-red-violet {
+	@apply max-w-max bg-gradient-to-r from-red-600 to-purple-600 bg-clip-text text-transparent;
+}

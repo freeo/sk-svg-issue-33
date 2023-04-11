@@ -1,0 +1,49 @@
+{
+	"name": "cksk2",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"devhost": "vite dev --host",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "playwright test",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"test:unit": "vitest",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.28.1",
+		"@poppanator/sveltekit-svg": "^3.0.0",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-static": "^2.0.1",
+		"@sveltejs/kit": "^1.15.0",
+		"@typescript-eslint/eslint-plugin": "^5.45.0",
+		"@typescript-eslint/parser": "^5.45.0",
+		"autoprefixer": "^10.4.14",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"mdsvex": "^0.10.6",
+		"postcss": "^8.4.21",
+		"postcss-import": "^15.1.0",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.8.1",
+		"prettier-plugin-tailwindcss": "^0.2.6",
+		"svelte": "^3.58.0",
+		"svelte-check": "^3.2.0",
+		"svgo": "^3.0.2",
+		"tailwindcss": "^3.2.7",
+		"tslib": "^2.4.1",
+		"typescript": "^4.9.3",
+		"vite": "^4.2.1",
+		"vitest": "^0.25.8"
+	},
+	"type": "module",
+	"dependencies": {
+		"rehype-autolink-headings": "^6.1.1",
+		"rehype-slug": "^5.1.0"
+	}
+}
